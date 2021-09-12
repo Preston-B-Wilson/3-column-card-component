@@ -4,7 +4,8 @@
   "description": "![alt text]()",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "cd client && npm install",
+    "start": "npm run start --prefix client"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yosoypan/3-column-card-component-challenge/issues"
   },
-  "homepage": "https://github.com/yosoypan/3-column-card-component-challenge#readme"
+  "homepage": "https://github.com/yosoypan/3-column-card-component-challenge#readme",
+  "dependencies": {
+    "reactstrap": "^8.10.0"
+  }
 }
