@@ -1,6 +1,6 @@
 # 3 Column Card Component Challenge
 
-![alt text](https://i.gyazo.com/74bcc62e488aeb32b3ea10ed7e65aa0f.png)
+![alt text](https://i.gyazo.com/0e3c592c2ebbffcc69090771b19b0ee9.png)
 
 This is my completion of the 3 Column Card Component Challenge on frontendmentor.io
 https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-
