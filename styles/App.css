@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "lexend-deca";
+  src: url("./../font/lexenddeca/LexendDeca-Light.ttf");
+}
+@font-face {
+  font-family: "lexend-deca-2";
+  src: url("./../font/lexenddeca/LexendDeca-Medium.ttf");
+}
+@font-face {
+  font-family: "big-shoulders";
+  src: url("./../font/bigshoulders/BigShouldersDisplay-SemiBold.ttf");
+}
+body {
+  margin: 0px;
+}
+
+.root-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.root-wrapper .main-container {
+  width: 920px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.root-wrapper .main-container .content-container {
+  width: 306.66px;
+  height: 500px;
+  white-space: pre-line;
+}
+.root-wrapper .main-container .container-1 {
+  background-color: #e38826;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.root-wrapper .main-container #button-1 {
+  color: #e38826;
+}
+.root-wrapper .main-container #button-1:hover {
+  color: #f2f2f2;
+}
+.root-wrapper .main-container .container-2 {
+  background-color: #006970;
+}
+.root-wrapper .main-container #button-2 {
+  color: #006970;
+}
+.root-wrapper .main-container #button-2:hover {
+  color: #f2f2f2;
+}
+.root-wrapper .main-container .container-3 {
+  background-color: #004241;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.root-wrapper .main-container #button-3 {
+  color: #004241;
+}
+.root-wrapper .main-container #button-3:hover {
+  color: #f2f2f2;
+}
+
+h1, img, p, .learn-more-button {
+  margin-left: 48px;
+}
+
+img {
+  margin-top: 48px;
+}
+
+h1 {
+  font-family: "big-shoulders";
+  color: #f2f2f2;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-size: 40.5px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "lexend-deca";
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.learn-more-button {
+  font-family: "lexend-deca-2";
+  font-size: 15px;
+  margin-top: 83px;
+  width: 146px;
+  height: 48px;
+  border-radius: 100px;
+  border-style: hidden;
+}
+.learn-more-button:hover {
+  border-style: solid;
+  border-color: #f2f2f2;
+  background-color: transparent;
+}
+
+@media (max-width: 970px) {
+  .root-wrapper {
+    height: 1400px;
+    width: 100%;
+  }
+
+  .main-container {
+    width: 196px !important;
+    height: 798px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .container-1 {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px !important;
+  }
+
+  .container-3 {
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 10px;
+  }
+
+  .learn-more-button {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

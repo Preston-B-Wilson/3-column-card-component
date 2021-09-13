@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/3-column-card-component-challenge/static/js/main.0b014fca.chunk.js",
+    "main.js.map": "/3-column-card-component-challenge/static/js/main.0b014fca.chunk.js.map",
+    "runtime-main.js": "/3-column-card-component-challenge/static/js/runtime-main.bdcb3523.js",
+    "runtime-main.js.map": "/3-column-card-component-challenge/static/js/runtime-main.bdcb3523.js.map",
+    "static/js/2.1bd9d6a3.chunk.js": "/3-column-card-component-challenge/static/js/2.1bd9d6a3.chunk.js",
+    "static/js/2.1bd9d6a3.chunk.js.map": "/3-column-card-component-challenge/static/js/2.1bd9d6a3.chunk.js.map",
+    "static/js/3.f274bc71.chunk.js": "/3-column-card-component-challenge/static/js/3.f274bc71.chunk.js",
+    "static/js/3.f274bc71.chunk.js.map": "/3-column-card-component-challenge/static/js/3.f274bc71.chunk.js.map",
+    "index.html": "/3-column-card-component-challenge/index.html",
+    "static/js/2.1bd9d6a3.chunk.js.LICENSE.txt": "/3-column-card-component-challenge/static/js/2.1bd9d6a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdcb3523.js",
+    "static/js/2.1bd9d6a3.chunk.js",
+    "static/js/main.0b014fca.chunk.js"
+  ]
+}
